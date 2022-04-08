@@ -7,11 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <script src="./js/action.js"></script>
     <title>Página de Start BCW18</title>
 </head>
 
-<body>
+<body style="font-family: Pacifico;">
     <header>
         <nav>
             <a href="#Somos">Quem somos neste - <strong>BCW18</strong></a> |
@@ -19,41 +22,61 @@
             <a href="#Dicas">Dicas do team - <strong>BCW18</strong></a> |
             <a href="#Orientações">Orientações de Trabalho como Dev. - <strong>BCW18</strong></a>
         </nav>
-        <ol>
-            <ol>
-                <li>Alunos</li>
-                <li>Professores</li>
     </header>
     <main>
         <div style="width: 50%;">
             <h1>Trajetória de Sucesso</h1>
-            <br>
-
-            <hr>
-
-            <p id="Somos" style=" height: 450px">
-                <strong>
-                    <h3>Fase 1:</h3>
-                </strong> Inscrição no site, realização do teste de lógica, curso da trilha zero
-                e montangem do pitch.
-            </p>
-
-            <hr>
-
-            <p id="Cronograma" style="height: 450px;">
-            <h3><strong>Fase 2:</strong></h3> Testes trilha zero e entrevista para avaliação de bolsa,
-            nesta fase se analisa a elegibilidade para a bolsa de estudos perante os clientes e o candidato.
-            </p>
-
-            <hr>
-
-            <p id="Dicas" style="height: 450px;">
-            <h3><strong>Fase 3 :</strong></h3> A dinâmica foi realizada em grupo, primeiro houve a explicação de como
-            seriam
-            atividades, e depois a formação de grupos para solucionar os desafios.
-            </p>
-
-            <hr>
+            <table>
+                <tr>
+                    <th><strong>Fase </strong></th>
+                    <th><strong>Descrição </strong></th>
+                    <th><strong>Imagem </strong></th>
+                </tr>
+                <tr>
+                    <td>Primeira </td>
+                    <td>
+                        Inscrição no site, realização do teste de lógica, curso da trilha zero
+                        e montangem do pitch.
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="./img/imagem1.jpg" alt="Ato de Inscrição." style="width:180px" height="180px">
+                            <figcaption>Fig.1 - Ato de Inscrição.</figcaption>
+                          </figure>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Segunda </td>
+                    <td>
+                        Testes trilha zero e entrevista para avaliação de bolsa,
+                        nesta fase se analisa a elegibilidade para a bolsa de estudos perante os clientes e o candidato.
+                    </td>
+                    <td>
+                        <td>
+                            <figure>
+                                <img src="./img/imagem2.jpg" alt="Testes de lógica para seleção." style="width:180px" height="180px">
+                                <figcaption>Fig.2 - Testes de lógica para seleção.</figcaption>
+                              </figure>
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Terceira </td>
+                    <td>
+                        A dinâmica foi realizada em grupo, primeiro houve a explicação de como seriam
+                        atividades, e depois a formação de grupos para solucionar os desafios.
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="./img/imagem3.jpg" alt="Aprovação e convocação das etapas finais." style="width:180px" height="180px">
+                            <figcaption>Fig.3 - Aprovação e convocação das etapas finais.</figcaption>
+                          </figure>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <figure></figure>
         </div>
     </main>
     <footer>
